@@ -73,7 +73,7 @@
       %span#live.anchor-jump-link
       .con-content
         %h2.bg-text=t.live.title
-        %h2.spacer &nbsp;
+        %h2.spacer!="&nbsp;"
         .embed-container
           %iframe{:allowfullscreen => "", :frameborder => "0", :src => "https://www.youtube.com/embed/videoseries?list=PLTvZBPQxCI8GGvYbi-irgyNAptXKWXJWl&amp;ecver=2"}
 
@@ -81,7 +81,7 @@
       %span#agenda.anchor-jump-link
       .con-content
         %h2.bg-text="Agenda"
-        %h2.spacer &nbsp;
+        %h2.spacer!="&nbsp;"
 
         #agenda-sobota
           .half
@@ -228,7 +228,7 @@
       %span#prelegenci.anchor-jump-link
       .con-content
         %h2.bg-text=t.navigation.speakers
-        %h2.spacer &nbsp;
+        %h2.spacer!="&nbsp;"
 
         #Prelegenci
         .third
@@ -254,7 +254,7 @@
         .third
           %img{:src => t.speakers.p6.photo}
           %h3=t.speakers.p6.name
-          %span=t.speakers.p6.content
+          %span!=t.speakers.p6.content
         .third
           %img{:src => t.speakers.p7.photo}
           %h3=t.speakers.p7.name
@@ -278,7 +278,7 @@
         .third
           %img{:src => t.speakers.p12.photo}
           %h3=t.speakers.p12.name
-          %span=t.speakers.p12.content
+          %span!=t.speakers.p12.content
         .third
           %img{:src => t.speakers.p13.photo}
           %h3=t.speakers.p13.name
@@ -296,7 +296,7 @@
       %span#dojazd.anchor-jump-link
       .con-content
         %h2.bg-text=t.navigation.dojazd
-        %h2.spacer &nbsp;
+        %h2.spacer!="&nbsp;"
         .third
           %h2=t.dojazd.p1.header
           %p=t.dojazd.p1.content
@@ -324,7 +324,7 @@
       %span#sponsorzy.anchor-jump-link
       .con-content
         %h2.bg-text=t.navigation.sponsors
-        %h2.spacer &nbsp;
+        %h2.spacer!="&nbsp;"
         .loga
           .logo-nokia
             %a{:href => "http://nokiawroclaw.pl"}
@@ -345,7 +345,7 @@
       %span#patroni.anchor-jump-link
       .con-content
         %h2.bg-text=t.navigation.patrons
-        %h2.spacer &nbsp;
+        %h2.spacer!="&nbsp;"
         .loga.patroni
           %a{:href => "https://programistamag.pl"}
             %img{:src => "/img/loga/patron-programista.png", :width => "400"}
@@ -359,7 +359,7 @@
       %span#organizatorzy.anchor-jump-link
       .con-content
         %h2.bg-text=t.navigation.orgs
-        %h2.spacer &nbsp;
+        %h2.spacer!="&nbsp;"
         .loga
           .logo-asi
             %a{:href => "http://asi.wroclaw.pl"}
@@ -375,7 +375,7 @@
       %span#kontakt.anchor-jump-link
       .con-content
         %h2.bg-text=t.navigation.contact
-        %h2.spacer &nbsp;
+        %h2.spacer!="&nbsp;"
         %h2{ :style => "margin: 100px 0px;" }=t.contact.text
 
     #con-footer.con-bg
