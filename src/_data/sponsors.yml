@@ -1,0 +1,26 @@
+sponsors:
+  - id: nokia
+    name: "Nokia"
+    url: "https://nokiawroclaw.pl"
+    logo: "img/loga/logo-nokia.svg"
+    width: 500
+  - id: droptica
+    name: "Droptica"
+    url: "https://www.droptica.pl"
+    logo: "img/loga/logo_droptica.svg"
+    width: 600
+  - id: semihalf
+    name: "Semihalf"
+    url: "https://www.semihalf.com/"
+    logo: "img/loga/semihalf.webp"
+    width: 500
+  - id: antmicro
+    name: "Antmicro"
+    url: "https://antmicro.com"
+    logo: "img/loga/logo_antmicro.svg"
+    width: 600
+  - id: globallogic
+    name: "GlobalLogic"
+    url: "https://www.globallogic.com/pl/"
+    logo: "img/loga/logo-globallogic.webp"
+    width: 500

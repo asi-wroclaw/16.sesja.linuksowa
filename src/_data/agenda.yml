@@ -1,0 +1,180 @@
+labels:
+  speaker:
+    pl: "Prelegent:"
+    en: "Speaker:"
+  extended_text:
+    pl: "Aby przejść do rozszerzonej agendy (z opisami prelekcji), kliknij tutaj."
+    en: "Click here if you want to check the talk descriptions."
+days:
+  saturday:
+    date:
+      pl: "6 kwietnia 2019"
+      en: "6th April 2019"
+    day:
+      pl: "- Sobota"
+      en: "- Saturday"
+  sunday:
+    date:
+      pl: "7 kwietnia 2019"
+      en: "7th April 2019"
+    day:
+      pl: "- Niedziela"
+      en: "- Sunday"
+saturday:
+  - id: p1
+    time: "09:00-10:00"
+    title:
+      pl: "Enabling AI at the edge using open source"
+    desc:
+      pl: "With even the smallest of platforms becoming capable of AI/ML - via embedded GPUs, dedicated deep learning accelerators or FPGAs - omnipresent and always on edge computation is no longer theory. And with a growing awareness of and investment in open source, a new wave of free and open platforms, software, hardware and tooling is changing the collaboration patterns and work methodologies for AI.<br/><br/>During the talk we will explain the importance of edge AI and discuss some of the crucial open technologies propelling the development of deep and machine learning forward - from open FPGA projects, through open edge processing platforms, to the global game-changer in computer architecture - RISC-V."
+    author: "Antmicro - Karol Gugała"
+    lang: "[pl/en]"
+    photo: "/img/ludzie/karolg.webp"
+  - id: p2
+    time: "10:00-11:00"
+    title:
+      pl: "Deep Learning revolution - are we subjects or objects?"
+    desc:
+      pl: "The greatest technological and social revolution in human history is happening right now. Advancements in IT and AI (with Deep Learning as most prominent example), as well as in medicine and biotechnology transform humankind in unprecedented way. But are we subjects of this revolution, or are we mere objects? In this lecture I explain nature of deep learning, possible gains, possible threats and how Free and Open Software can mitigate them."
+    author: "Filip Drapejkowski"
+    lang: "[en]"
+    photo: "/img/ludzie/drapej.webp"
+  - id: p3
+    time: "11:00-12:00"
+    title:
+      pl: "Jak zmienia się jądro Linuksa"
+    desc:
+      pl: "Jądro Linuksa jest teraz jednym z najczęściej używanych programów komputerowych na świecie. Jednocześnie i głównie z tego powodu jest to także jeden z największych i najszybciej rozwijających się projektów informatycznych w historii. Utrzymanie tak wysokiego tempa rozwoju przy równoczesnym zachowaniu otwartości projektu na kontrubucje od wszystkich jego użytkowników i braku sformalizowanej struktury organizacyjnej służącej do kierowania nim jest możliwe głównie dzięki specyficznemu podziałowi zadań przy wprowadzaniu i integrowaniu zmian oraz dystrybucji poprawek. Nie bez znaczenia jest także infrastruktura wspierająca jego rozwój, zbudowana w dużej mierze w oparciu o dobrowolną współpracę wielu różnych podmiotów realizujących zadania służące ich własnym celom, lecz również przynoszące korzyści całemu projektowi. Moja prezentacja będzie poświęcona tym zagadnieniom."
+    author: "Rafał Wysocki"
+    lang: "[pl]"
+    photo: "/img/ludzie/wysocki.webp"
+  - id: p4
+    time: "12:00-13:00"
+    title:
+      pl: "Zuul v3 - CI/CD nowej generacji"
+    desc:
+      pl: "Zuul v3 to system służący automatyzacji CI/CD, współpracujący z Gerritem lub GitHubem, mogący automatycznie scalać zmiany zaproponowane przez deweloperów. Architektura mikro-serwisów, zaprojektowana przez OpenStack Foundation, pozwala na doskonałe skalowanie rozwiązania. Kolejnym atutem rozwiązania jest przejrzysta konfiguracja zapisana w plikach Yaml i skryptach Ansible, umieszczona bezpośrednio w repozytoriach, które znajdują się pod opieką Zuula."
+    author: "Nokia - Tomasz Szandała"
+    lang: "[pl]"
+    photo: "/img/ludzie/szandala.webp"
+  - id: lunch
+    time: "13:00-14:00"
+    title:
+      pl: "Przerwa obiadowa"
+      en: "Lunch break"
+    desc:
+      pl: ""
+  - id: p5
+    time: "14:00-15:00"
+    title:
+      pl: "Szybkie sieci w Linuksie - jak to się robi przy pomocy DPDK."
+    desc:
+      pl: "Jak poradzić sobie z 40Gbit lub 100Gbit Ethernetem w Linuksie? W obecnej dekadzie obserwujemy gwałtowny rozwój sieci światłowodowych, któremu towarzyszy stosunkowo powolny wzrost mocy obliczeniowych. Powoduje to konieczność wynajdywania nowych paradygmatów programowania sieciowego. Jednym z nich jest programowanie sprzętu w przestrzeni użytkownika, które korzysta z mechanizmów sprzętowej wirtualizacji takich, jak VFIO używane w Qemu/KVM. Na wykładzie opowiemy w skrócie,  jak można to osiągać przy pomocy biblioteki DPDK."
+    author: "Semihalf - Maciej Czekaj"
+    lang: "[pl]"
+    photo: "/img/ludzie/czekaj.webp"
+  - id: p6
+    time: "15:00-16:00"
+    title:
+      pl: "Tajemnicze właściwości GIFów"
+    desc:
+      pl: "Na prezentacji opowiem o formacie GIF oraz implementacji jego obsługi. Jakie dane można w nim przechowywać, w jaki sposób można je interpretować, jakie są ograniczenia i na jakie niespodzianki można natrafić."
+    author: "Karol Wrótniak"
+    lang: "[pl]"
+    photo: "/img/ludzie/karol.webp"
+  - id: p7
+    time: "16:00-17:00"
+    title:
+      pl: "Jenkins Declarative Pipelines with Kubernetes"
+    desc:
+      pl: "Jenkins jest dynamicznie rozwijającym się produktem do budowania projektów oraz realizacji CI/CD. Jego największą zaletą (oraz jednocześnie słabością) jest niezliczona ilość pluginów. Wbrew obiegowej opinii, ma on dużo większe możliwości niż Gitlab-CI, a równocześnie bez problemu z Gitlabem się integruje. W prelekcji zajmiemy się relatywnie nową funkcjonalnością w Jenkins2 - deklaratywnymi pipelinami, oraz wykorzystaniem w nich Kubernetesa."
+    author: "Vladimir Mitiouchev"
+    lang: "[pl]"
+    photo: "/img/ludzie/vovcia.webp"
+  - id: p8
+    time: "17:00-18:00"
+    title:
+      pl: "O bezpieczeństwie kontenerów linuksowych"
+    desc:
+      pl: "Celem prezentacji jest przedstawienie obecnego stanu kontenerów linuksowych oraz różnych form izolacji procesów z punktu widzenia bezpieczeństwa. Omówię w jaki sposób nie należy uruchamiać Dockera ani kontenerów, którymi on zarządza oraz przedstawię alternatywne metody konteneryzacji (Podman, systemd). Dodatkowo pokażę w jaki sposób można bez kontenerów, a jedynie za pomocą systemd wyizolować proces w taki sposób, aby nie przeszkadzał on innym oraz nie miał dostępu do zasobów, do których nie powinien. Będzie kilka dem na żywo, trochę Basha, Pythona i jako bonus omówię kwestię bezpieczeństwa związaną z znanym obrazem kontenerowym Alpine Linux."
+    author: "Maciej Lasyk"
+    lang: "[pl]"
+    photo: "/img/ludzie/lasyk.webp"
+  - id: p9
+    time: "18:00-19:00"
+    title:
+      pl: "Podstawy konfiguracji sieci w Linuksie"
+    desc:
+      pl: "Systemy oparte na Linuksie znajdują zastosowanie na najróżniejszych platformach w niezliczonej liczbie zadań. Praktycznie każdy z tych zastosowań wymaga działającej sieci - czy to LAN, czy internetu. Powstało wiele narzędzi wspomagających konfigurowanie sieci, ale... co zrobić, jak coś pójdzie nie tak? Przedstawię podstawowe metody i sposoby radzenia sobie w takiej sytuacji, gdy mamy fizyczny dostęp konsoli na urządzeniu."
+    author: "Jakub Juszczakiewicz"
+    lang: "[pl]"
+    photo: "/img/ludzie/siewca.webp"
+sunday:
+  - id: p1
+    time: "10:00-11:00"
+    title:
+      pl: "Wydajne filtrowanie pakietów przy pomocy jądra Linuksa i BPF"
+    desc:
+      pl: "BPF (Berkeley Packet Filter) to interpreter, który pozwala na monitorowanie, filtrowanie i modyfikowanie pakietów sieciowych przy pomocy bytecode'u. Czyli de facto, pozwala on na pisanie programów filtrujących ruch. Daje nam to większą wydajność i elastyczność niż inne znane w Linuksie mechanizmy filtrujące - netfilter czy iptables. Istnieje wiele jego implementacji, ale w tej prelekcji skupię się na tej, która jest zawarta w jądrze Linuksa. Prezentacja poruszy też temat projektów, które korzystają z BPF - na przykład bpfilter (następca nftables i iptables) i Cilium (plugin CNI, filtrujący ruch sieciowy dla kontenerów)."
+    author: "Michał Rostecki"
+    lang: "[pl]"
+    photo: "/img/ludzie/rostecki.webp"
+  - id: p2
+    time: "11:00-12:00"
+    title:
+      pl: "Wprowadzenie do Warp10 – Metryki bez barier"
+    desc:
+      pl: "Odkryj wspaniały świat <a href=\"https://www.warp10.io/\" target=\"_blank\">Warp10!</a> Platformy zbudowanej do zarządzania i przetwarzania szeregów czasowych. Poznaj podstawy WarpScriptu – języka programowania opartego na stosie, ułatwiającego ich analizę. W trakcie prezentacji zostaną poruszone takie zagadnienia jak:<ul><li>A komu to potrzebne, a dlaczego?</li><li>Dlaczego Warp10 jest super.</li><li>Jak wysyłać metryki.</li><li>Jak postawić swoją instancję Warp10.</li><li>Podstawy przetwarzania danych w WarpScriptcie.</li><li>Jak rozszerzyć Warp10 o własne funkcje.</li><li>Jak używamy Warp10 w OVH.</li><li>Jak zaangażować się w rozwój platformy.</li></ul>"
+    author: "Filip Dorosz"
+    lang: "[pl]"
+    photo: "/img/ludzie/dorosz.webp"
+  - id: p3
+    time: "12:00-13:00"
+    title:
+      pl: "API Gateway w blasku księżyca"
+    desc:
+      pl: "Czy wiesz co potrafi zrobić twój serwer reverse-proxy? Wydaje Ci się, że żeby zrobić sprytny routing / uwierzytelnianie / autoryzację (niepotrzebne skreślić) między serwisami musisz go napisać w Javie lub jako moduł w C? A co jeżeli odpalanie JVM tylko po to, żeby do każdego żądania http dokleić jeden nagłówek to armata na wróbla? Zwłaszcza, że prawie na pewno gdzieś tam po drodze mijasz nginx... Zapraszam Cię do świata idealnej symbiozy nginx i Lua."
+    author: "Marcin Stożek"
+    lang: "[pl]"
+    photo: "/img/ludzie/stozek.webp"
+  - id: lunch
+    time: "13:00-14:00"
+    title:
+      pl: "Przerwa obiadowa"
+      en: "Lunch break"
+    desc:
+      pl: ""
+  - id: p4
+    time: "14:00-15:00"
+    title:
+      pl: "Czysty serwer"
+    desc:
+      pl: "Haskell, CQRS/ES i elementy  DDD na linuksie<br><br>Serwery REST w Haskellu to raczej nie jest mainstreamowa technologia... Ale jeśli spróbujemy to szybko poznajemy zalety w stosunku do imperatywnym rozwiązań (np. w Javie i Scali). Szczególnie jest to widoczne jeśli korzystamy z event sourcingu oraz staramy się programować z wykorzystanem zasad DDD. To wszystko na przykładzie sieciowej gierki w Węża."
+    author: "Jarek Ratajski"
+    lang: "[pl]"
+    photo: "/img/ludzie/ratajski.webp"
+  - id: p5
+    time: "15:00-16:00"
+    title:
+      pl: "Monolit? Mikroserwisy? A czy to ważne?"
+    desc:
+      pl: "Rozmowy o architekturze można obecnie podsumować w prosty sposób – zaczynasz projekt, zrób mikroserwisy. Pytanie, czy jest to dobre podejście? Czy każdy problem należy rozwiązywać za pomocą „aplikacji chmurowej w architekturze mikroserwisowej”? Oczywiście nie! Zatem dlaczego tak robimy? Czy istnieje inne podejście do problemu? Czy klasyczne monolity mają sens? W czasie prelekcji podyskutujemy na ten temat. Rozbierzemy na elementy pierwsze kilka klasycznych aplikacji i problemów w systemach monolitycznych. Przyjrzymy się, jak można tworzyć programy i przy okazji nie utonąć w rachunkach za usługi."
+    author: "Bartłomiej Kuczyński"
+    lang: "[pl]"
+    photo: "/img/ludzie/kuczynski.webp"
+  - id: p6
+    time: "16:00-17:00"
+    title:
+      pl: "Własny serwer email - jak i dlaczego"
+    desc:
+      pl: "Stawianie i utrzymywanie serwera pocztowego to zadanie, którego mało kto chce się podjąć. Kojarzy się to z dużą ilością pracy przy bardzo skomplikowanym systemie. Jak jest naprawdę? Ta prelekcja pokaże jak działa email w praktyce, co jest faktycznie trudne, a co można osiągnąć dość niewielkim wysiłkiem. A przede wszystkim - jak mieć pocztę u siebie."
+    author: "Błażej Święcicki"
+    lang: "[pl]"
+    photo: "/img/ludzie/mewp.webp"
+  - id: lightning
+    time: "17:00-"
+    title:
+      pl: "Lightning talki"
+    desc:
+      pl: ""
+

@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ page.lang | default: site.default_lang }}">
+
 <head>
     {% include head.html %}
 </head>
+
 <body>
     {% include index/navigation.html %}
     {% include index/hero.html %}
     {% include index/about.html %}
     {% include index/live.html %}
     {% include index/agenda.html %}
+    {% include workshops.html %}
+    {% include lpi.html %}
     {% include speakers.html %}
     {% include index/location.html %}
     {% include index/map.html %}
@@ -20,4 +24,5 @@
     {% include footer.html %}
     {% include scripts.html %}
 </body>
+
 </html>

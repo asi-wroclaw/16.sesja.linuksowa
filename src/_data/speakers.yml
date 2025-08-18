@@ -1,0 +1,76 @@
+speakers:
+  - id: p1
+    name: "Karol Gugała"
+    photo: "/img/ludzie/karolg.webp"
+    content:
+      pl: "Karol is a Team Leader at Antmicro. His team focuses on complex systems development from CPU designs, through OS development up to edge AI applications. Prior to joining Antmicro in 2011, Karol worked at the Poznan University of Technology as a researcher. His research focused on acceleration of neural tissue simulations."
+  - id: p2
+    name: "Filip Drapejkowski"
+    photo: "/img/ludzie/drapej.webp"
+    content:
+      pl: "Senior Software Developer in Luxoft focused on automotive Deep Learning consultancy for Nauto. Wroclaw University of Science and Technology graduate, alumni member of ASI. Passionate about Computer Vision, Data Science, Machine Learning, Robotics and  Edge computing. Climber, wannabe kitesurfer and motorcycle adventurer in free time."
+  - id: p3
+    name: "Rafał Wysocki"
+    photo: "/img/ludzie/wysocki.webp"
+    content:
+      pl: "W rozwijaniu jądra Linuksa biorę udział od 2005 r. Zaczynałem od rozwijania kodu wspierającego usypianie systemu oraz hibernację i w 2009 roku zostałem opiekunem tego (niewielkiego) fragmentu jądra. Zajmuję się tym do dziś, a oprócz tego jestem opiekunem kilku innych części składowych jądra Linuksa, głównie związanych z tak zwaną efektywnością energetyczną. Od 2012 roku pracuję w firmie Intel, obecnie w jednostce organizacyjnej o nazwie Linux Systems Engineering, przede wszystkim nad rozwijaniem jądra Linuksa. Przedtem współpracowałem z SUSE (dystrybujcja Linuksa dla przedsiębiorstw) i Renesas Electronics (układy scalone typu System-on-a-Chip i podzespoły elektroniczne) oraz pracowałem na Wydziale Fizyki Uniwersytetu Warszawskiego, a także w XXVII L.O. im. T. Czackiego w Warszawie, między innymi jako administrator systemów komputerowych. Z wykształcenia jestem fizykiem, mam stopień naukowy doktora, który otrzymałem na Wydziale Fizyki UW w 2002 r."
+  - id: p4
+    name: "Tomasz Szandała"
+    photo: "/img/ludzie/szandala.webp"
+    content:
+      pl: "Inżynier oprogramowania w firmie NOKIA, oraz doktorant Katedry Informatyki Technicznej na Politechnice Wrocławskiej. Na co dzień zajmuje się administracją setek repozytoriów, utrzymywaniem kilku Jenkinsów oraz bohaterskim rozwiązywaniem problemów, których nie mają inne projekty :-)"
+  - id: p5
+    name: "Maciej Czekaj"
+    photo: "/img/ludzie/czekaj.webp"
+    content:
+      pl: "Wiodący inżynier oprogramowania w firmie Semihalf. Zajmuje się w systemami wbudowanymi Linux/ARM, stosami sieciowymi i wirtualizacją, commiter DPDK . Współtworzył m.in. aplikację do zarządzania siecią SDN na bazie DPDK: Contrail Virtual Router. Aktualnie realizuje doktorat wdrożeniowy przy AGH w Krakowie na temat metod akceleracji ruchu sieciowego. Autor wielu artykułów w prasie branżowej z zakresu programowania niskopoziomowego i sieci."
+  - id: p6
+    name: "Karol Wrótniak"
+    photo: "/img/ludzie/karol.webp"
+    content:
+      pl: "Karol Wrótniak zajmuje się Androidem od ponad 7 lat. Programowanie to jego pasja i praca. Na co dzień buduje aplikacje i biblioteki w Droids on Roids oraz pomaga zespołowi QA w automatyzacji testów i rozwiązywaniu trudnych przypadków. Po godzinach realizuje własne pomysły. Autor postów na blogu Droids On Roids - <a href=\"https://www.thedroidsonroids.com/blog\">https://www.thedroidsonroids.com/blog</a>. Prelegent na konferencjach i meetupach. Zaangażowany w wiele projektów open source, w szczególności te związane z testami."
+  - id: p7
+    name: "Vladimir Mitiouchev"
+    photo: "/img/ludzie/vovcia.webp"
+    content:
+      pl: "Admin z długim (>12 lat) stażem, z doświadczeniem w najróżniejszych dziedzinach. Od 5 lat pracuje w AVSystem w roli admina, R&D oraz specjalisty od sieci i wdrożeń Kubernetesa. W wolnym czasie gra na gitarze i programuje IoT w micropythonie. "
+  - id: p8
+    name: "Maciej Lasyk"
+    photo: "/img/ludzie/lasyk.webp"
+    content:
+      pl: "Akrobata w firmie Codewise. W wolnym czasie rozwija kilka projektów open - source'owych (patrz Github). Serce w dużej części oddał Pythonowi oraz Fedorze (ale oczywiście w pierwszej kolejności rodzinie XD). Od kilku lat jest w skomplikowanym związku z systemd oraz Selinuxem. Uwielbia hackathony, restartować serwery, których inni się boją dotykać i automatyzuje wszystko co ma sens automatyzować. Używa na codzień wszystkich popularnych chmur, ale najlepiej odnajduje się w tej, którą stworzył u siebie w piwnicy. Żyje sportami - dzięki czemu czasem trochę kuśtyka ;) Lubi udowadniać, że nie ma rzeczy niemożliwych - ukończył najtrudniejszy triathlon na świecie oraz zarządza sporym clustrem Cassandry hostowanym na Dockerach (sic!). Biega po górach, woli biegówki niż zwykłe narty oraz pływanie z dala od brzegu."
+  - id: p9
+    name: "Jakub 'Siewca' Juszczakiewicz"
+    photo: "/img/ludzie/siewca.webp"
+    content:
+      pl: "Jestem programistą i miłośnikiem otwartego oprogramowania. Byłym członkiem w ASI i absolwentem Politechniki Wrocławskiej. Po za informatyką lubię się przemieszczać różnymi środkami transportu - od własnych nóg, przez rower, narty... do pociągów."
+  - id: p10
+    name: "Michał Rostecki"
+    photo: "/img/ludzie/rostecki.webp"
+    content:
+      pl: "Programista w firmie SUSE. Dziś kontrybujący głównie w projekcie Cilium - implementacji CNI (Container Network Interface), który filtruje ruch sieciowy dla kontenerów przy pomocy BPF. Dawniej kontrybutor OpenStacka."
+  - id: p11
+    name: "Filip Dorosz"
+    photo: "/img/ludzie/dorosz.webp"
+    content:
+      pl: "DevOps w OVH w zespole Ceph. Zapalony Linuxiarz i propagator Otwartego Oprogramowania. Interesuję się tematami związanymi z bezpieczeństwem teleinformatycznym, lubię dank memy, a wolnych chwilach prowadzę prywatne \"data center\""
+  - id: p12
+    name: "Marcin Stożek"
+    photo: "/img/ludzie/stozek.webp"
+    content:
+      pl: "Za dnia jestem programistą i devopsem, po nocach czytam co słychać na Hacker News. Wierny fan pracy zdalnej.<br>Programowanie zaczynałem od zeszytu w kratkę, w którym w drugiej klasie podstawówki na piechotę wyliczałem bajty potrzebne do wyświetlenia obrazka na C64.<br>Od tego czasu brałem udział w wielu projektach z różnych dziedzin, od bezpieczeństwa w kolejkach po Hadoopa, od monolitu do mikroserwisów.<br>Szerzę zarazę automatyzacji, GNU/Linuksa oraz Vima. Niekoniecznie w tej kolejności."
+  - id: p13
+    name: "Jarek Ratajski"
+    photo: "/img/ludzie/ratajski.webp"
+    content:
+      pl: "Programista, Nekromanta, Anarchitekt"
+  - id: p14
+    name: "Bartłomiej Kuczyński"
+    photo: "/img/ludzie/kuczynski.webp"
+    content:
+      pl: "Programista, architekt z doskoku, standardowy nerd i posiadacz brody. Od 15 lat zawodowo zajmujący się psuciem oprogramowania w różnych instytucjach finansowych. Obecnie związany z JLupin Platform jako ewangelista tego rozwiązania."
+  - id: p15
+    name: "Błażej Święcicki"
+    photo: "/img/ludzie/mewp.webp"
+    content:
+      pl: "Sysadmin, programista, linuksiarz i były prezes Akademickiego Stowarzyszenia Informatycznego. Zagorzały przeciwnik Facebooka i innych zcentralizowanych usług w chmurze."

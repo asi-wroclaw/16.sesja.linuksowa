@@ -1,6 +1,9 @@
+{% assign meta = site.data.common.meta %}
 <div id="con-footer" class="con-bg">
     <div class="con-content">
-        © 2019
-        <a href="https://asi.wroclaw.pl" target="_blank" rel="noopener noreferrer">{{ t.asi }}</a>
+        © {{ meta.year }}
+        <a href="https://asi.wroclaw.pl" target="_blank" rel="noopener noreferrer">
+            {{ meta[page.lang].author | default: meta.pl.author }}
+        </a>
     </div>
 </div>

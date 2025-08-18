@@ -1,0 +1,22 @@
+location:
+  - id: p1
+    header:
+      pl: "Centrum Kongresowe Politechniki Wrocławskiej (budynek D20)"
+      en: "Congress Center of the Wrocław University of Science and Technology (building D20)"
+    content:
+      pl: "Centrum Kongresowe znajduje się na terenie kampusu Politechniki Wrocławskiej, przy ulicy Janiszewskiego 8."
+      en: "Congress Center of the Wrocław University of Science and Technology is a building located on Wrocław University of Science and Technology campus. The precise address is Janiszewskiego 8."
+  - id: p2
+    header:
+      pl: "Komunikacją miejską"
+      en: "Public transport"
+    content:
+      pl: "Udajemy się dowolną linią jadącą na węzeł Plac Grunwaldzki, a następnie pokonujemy pieszo około 500 metrów."
+      en: "Use any tram or bus heading to a stop called \"Plac Grunwaldzki\". From the stop you'll have to walk for about 500 meters."
+  - id: p3
+    header:
+      pl: "Samochodem"
+      en: "By car"
+    content:
+      pl: "W obrębie kampusu Politechniki Wrocławskiej dostępne jest wiele miejsc parkingowych."
+      en: "Please contact us after you have registered for the event and we will arrange a free parking spot."

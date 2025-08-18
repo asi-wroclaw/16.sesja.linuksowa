@@ -1,0 +1,34 @@
+{% if site.data.common.features.workshops_enabled %}
+{% assign workshops = site.data.workshops.workshops %}
+<div id="con-warsztaty" class="con-bg">
+    <span id="warsztaty" class="anchor-jump-link"></span>
+    <div class="con-content">
+        {% assign nav = site.data.navigation.navigation %}
+        <h2 class="bg-text">{{ nav.workshops[page.lang] | default: nav.workshops.pl }}</h2>
+        <h2 class="spacer">&nbsp;</h2>
+        <div class="opis">
+            {% for section in workshops %}
+            {% if section.layout == 'half' %}
+            <div class="half">
+                <h2>{{ section.header[page.lang] | default: section.header.pl }}</h2>
+                <p>{{ section.content[page.lang] | default: section.content.pl }}</p>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+        {% for section in workshops %}
+        {% if section.layout == 'third' %}
+        <div class="third">
+            <h2>{{ section.header[page.lang] | default: section.header.pl }}</h2>
+            <p>
+                {{ section.content[page.lang] | default: section.content.pl }}
+                {% if section.image %}<br />
+                <center><img style="max-width: 50%" src="{{ section.image | relative_url }}" /></center>
+                {% endif %}
+            </p>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
+{% endif %}

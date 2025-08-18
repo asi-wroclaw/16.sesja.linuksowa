@@ -1,0 +1,17 @@
+patrons:
+  - id: programista
+    name: "Programista Magazyn"
+    url: "https://programistamag.pl"
+    logo: "img/loga/patron-programista.webp"
+  - id: 4p
+    name: "4programmers.net"
+    url: "https://4programmers.net"
+    logo: "img/loga/patron-4p.svg"
+  - id: dobreprogramy
+    name: "Dobreprogramy"
+    url: "https://www.dobreprogramy.pl"
+    logo: "img/loga/patron-dobreprogramy.webp"
+  - id: jug
+    name: "Wroclaw JUG"
+    url: "https://wroclaw.jug.pl"
+    logo: "img/loga/patron-jug.svg"

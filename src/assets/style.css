@@ -519,7 +519,7 @@ a img {
 /* kontener organizatorów (Nasz zespół) */
 
 #con-naszzespol {
-  background-color: #FFF;
+  background-color: #EEE;
 }
 
 #con-naszzespol .third img {
@@ -689,13 +689,13 @@ a img {
 }
 
 .loga.patroni img {
+  max-height: 8em;
   vertical-align: middle;
 }
 
-
 /* kontener formularza kontaktowego (Kontakt) */
 #con-kontakt {
-  /* background-color: #EEE;  */
+  background-color: #EEE;
   background: #EEE url('../img/bg_pingwin.webp') right top no-repeat;
 }
 

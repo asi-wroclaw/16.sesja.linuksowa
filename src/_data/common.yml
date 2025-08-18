@@ -1,0 +1,29 @@
+meta:
+  year: 2019
+  pl:
+    name: "16. Sesja Linuksowa"
+    author: "Akademickie Stowarzyszenie Informatyczne"
+    description: "Sesja Linuksowa to największa w Polsce konferencja poświęcona rozwiązaniom Open Source oraz najnowszym trendom w systemach z rodziny GNU/Linux."
+    keywords: "Sesja Linuksowa, konferencja, ASI, Akademickie Stowarzyszenie Informatyczne, Wrocław, Open Source, Linux, IT, studenci, programowanie"
+    locale: "pl_PL"
+    title: "16. Sesja Linuksowa | Wrocław, Polska"
+  en:
+    name: "16th Linux Session"
+    author: "Academic IT Association"
+    description: "The Linux Session is the largest conference in Poland dedicated to Open Source solutions and the latest trends in GNU/Linux systems."
+    keywords: "Sesja Linuksowa, conference, ASI, Akademickie Stowarzyszenie Informatyczne, Wrocław, Open Source, Linux, IT, students, programming"
+    locale: "en_US"
+    title: "16th Linux Session | Wrocław, Poland"
+
+features:
+  workshops_enabled: false
+  lpi_enabled: false
+
+map:
+  bbox: "17.042,51.104,17.077,51.116"
+  marker: "51.11041991029264,17.059965133666992"
+  map: "16/51.11042/17.05997"
+
+youtube:
+  playlist_id: "PLTvZBPQxCI8GGvYbi-irgyNAptXKWXJWl"
+
