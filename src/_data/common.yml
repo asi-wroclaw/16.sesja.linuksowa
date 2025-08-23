@@ -15,10 +15,6 @@ meta:
     locale: "en_US"
     title: "16th Linux Session | Wrocław, Poland"
 
-features:
-  workshops_enabled: false
-  lpi_enabled: false
-
 map:
   bbox: "17.042,51.104,17.077,51.116"
   marker: "51.11041991029264,17.059965133666992"
@@ -27,3 +23,34 @@ map:
 youtube:
   playlist_id: "PLTvZBPQxCI8GGvYbi-irgyNAptXKWXJWl"
 
+backgrounds:
+  default:
+    hero: "#FFF"
+    about: "#FFF"
+    live: "#EEE"
+    agenda: "#FFF"
+    speakers: "#EEE"
+    location: "#FFF"
+    sponsors: "#FFF"
+    patrons: "#EEE"
+    organizers: "#FFF"
+    contact: "#EEE"
+  editions:
+    13:
+      hero: "#FFF"
+      about: "#EEE"
+      live: "#FFF"
+      agenda: "#FFF"
+      speakers: "#EEE"
+      location: "#FFF"
+      sponsors: "#EEE"
+      patrons: "#EEE"
+      organizers: "#FFF"
+      ourteam: "#EEE"
+      contact: "#FFF"
+    14:
+      workshops: "#EEE"
+      lpi: "#FFF"
+    15:
+      organizers: "#EEE"
+      contact: "#FFF"
